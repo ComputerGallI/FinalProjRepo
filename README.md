@@ -1,7 +1,22 @@
-MAI – Motherly AI with Hugging Face Integration
+🤖 AI Model Overview – MAI (Motherly AI)
+MAI integrates affect computing with a Retrieval-Augmented Generation (RAG) architecture to provide emotionally intelligent chatbot responses.
+ Model Components
+BERT/BERT Mini – Used for sentiment analysis and contextual understanding of user input and quiz responses.
 
-MAI, short for Motherly AI, is an emotionally-aware app companion designed to support  a person checking in with themselves, staying organized, and feeling encouraged. It combines modern AI tools with a warm, human-centered experience. Users can either chat with MAI to reflect on their mood or take a short quiz that gives them insight into their well-being. The app allows them to create a profile where they can track their emotional check-ins and quiz results over time, with a stretch goal of being able to incorporate the persons info to make better predictive alerts and calendar updates for the user. 
+BART – Acts as a text generator, producing natural and empathetic replies tailored to user mood and context.
 
+MongoDB + Knowledge Base – Enables RAG by retrieving relevant emotional support content before generation.
+
+Google Colab – Used to fine-tune and prototype models for training and testing custom emotion-aware behavior.
+
+Features Enabled by AI
+Emotionally responsive chatbot conversations
+
+Quiz-based personality profiling to shape chatbot tone
+
+Sentiment-driven support and feedback
+
+Secure storage of user mood, responses, and chat history for personalization
 Ryan Edwards & India Ratliff
 
 
